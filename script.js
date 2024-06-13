@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const gridDisplay = document.querySelector(".grid");
   const scoreDisplay = document.querySelector("#score");
   const resultDisplay = document.querySelector("#result");
-
   const width = 4;
   let squares = [];
   let score = 0;
