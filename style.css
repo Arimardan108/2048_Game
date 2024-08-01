@@ -22,12 +22,21 @@ body {
   grid-template-columns: repeat(var(--grid-size), var(--cell-size));
   grid-template-rows: repeat(var(--grid-size), var(--cell-size));
   background-color: #ccc;
-  gap: 2vmin;
+  gap: var(---cell-gap);
   border-radius: 1vmin;
-  padding: 2vmin;
+  padding: var(---cell-gap);
   position: relative;
 }
 .cell {
   background-color: #aaa;
   border-radius: 1vmin;
+}
+.tile {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--cell-size);
+  height: var(--cell-size);
+  background-color: red;
 }
