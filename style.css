@@ -55,3 +55,9 @@ body {
   color: hsl(200, 25%, var(--text-lightness));
   animation: show 200ms ease-in-out;
 }
+@keyframes show {
+  0% {
+    opacity: 0.5;
+    transform: scale(0);
+  }
+}
