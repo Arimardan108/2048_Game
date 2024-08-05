@@ -15,16 +15,24 @@ export default class Grid {
       );
     });
   }
+  get #emptyCells() {
+    return this.#cells.filter((cell) => cell.tile == null);
+  }
+  randomEmptyCell() {}
 }
 
 class Cell {
   #cellElement;
   #x;
   #y;
+  #tile;
   constructor(cellElement, x, y) {
     this.#cellElement = cellElement;
     this.#x = x;
     this.#y = y;
+  }
+  get tile() {
+    return this.tile;
   }
 }
 
