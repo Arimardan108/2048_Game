@@ -1,3 +1,4 @@
-import Grid from "./Grid.js ";
+import Grid from "./Grid ";
+import Tile from "./tile";
 const Boardgame = document.getElementById("board-game");
-// const grid=new
+const grid = new Boardgame();
