@@ -16,5 +16,14 @@ function handleInput(e) {
       break;
     case "ArrowDown":
       moveDown();
+      break;
+    case "ArrowLeft":
+      moveLeft();
+      break;
+    case "ArrowRight":
+      moveRight();
+      break;
+    default:
+      break;
   }
 }
