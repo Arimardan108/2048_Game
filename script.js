@@ -24,6 +24,23 @@ function handleInput(e) {
       moveRight();
       break;
     default:
+      setupInput;
       break;
   }
+  setupInput();
+}
+
+function moveUp() {
+  return slideTiles(grid.cellsByColumn);
+}
+
+function slideTiles(cells) {
+  cells.forEach((group) => {
+    for (let i = 0; i < group.length; i++) {
+      const cell = group[i];
+      if (cell.tile == null) continue;
+      let lastValidCell
+      for(let i=0;)
+    }
+  });
 }
