@@ -39,8 +39,7 @@ function slideTiles(cells) {
     for (let i = 0; i < group.length; i++) {
       const cell = group[i];
       if (cell.tile == null) continue;
-      let lastValidCell
-      for(let i=0;)
+      let lastValidCell;
     }
   });
 }
